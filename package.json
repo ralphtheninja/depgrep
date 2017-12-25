@@ -1,0 +1,42 @@
+{
+  "name": "depgrep",
+  "version": "0.0.0",
+  "description": "Search dependents of a node module.",
+  "main": "index.js",
+  "dependencies": {
+    "array-uniq": "^1.0.3",
+    "chalk": "^2.3.0",
+    "debug": "^3.1.0",
+    "github-from-package": "0.0.0",
+    "jsonist": "^2.1.0",
+    "level": "^2.1.1",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "module-dependents": "^0.1.4",
+    "ora": "^1.3.0",
+    "osenv": "^0.1.4",
+    "rc": "^1.2.2",
+    "subleveldown": "^2.1.0"
+  },
+  "bin": "cli.js",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "homepage": "https://github.com/ralphtheninja/depgrep",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ralphtheninja/depgrep.git"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "Lars-Magnus Skog <ralphtheninja@riseup.net>",
+  "keywords": [
+    "dependents",
+    "search",
+    "grep",
+    "github",
+    "ag"
+  ],
+  "license": "MIT"
+}

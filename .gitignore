@@ -1,0 +1,6 @@
+node_modules/
+.gitmodules
+npm-debug.log
+
+db
+package-lock.json*
