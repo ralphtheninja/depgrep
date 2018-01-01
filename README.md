@@ -27,9 +27,7 @@ $ npm i depgrep -g
 
 Search for `testBuffer` in dependents of `abstract-leveldown`
 
-```
-$ depgrep abstract-leveldown testBuffer
-```
+![image](depgrep.gif)
 
 ## License
 
