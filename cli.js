@@ -19,8 +19,10 @@ if (typeof base !== 'string') {
   process.exit(1)
 }
 
-const query = rc._[1]
-if (typeof query !== 'string') {
+let query = rc._[1]
+if (typeof query === 'string') {
+  query = query.toLowerCase()
+} else {
   console.log(c.yellow('Missing search query'))
   process.exit(1)
 }
