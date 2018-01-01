@@ -40,7 +40,9 @@ doQuery(db, base, query, (err, files) => {
     })
     if (i < files.length) console.log()
   })
-}).on('status', status => spinner.text = status)
+}).on('status', status => {
+  spinner.text = status
+})
 
 function hilight (str, pattern) {
   return str.replace(new RegExp(pattern, 'g'), c.bgYellow.gray.bold(pattern))
