@@ -45,7 +45,8 @@ doQuery(db, base, query, (err, files) => {
 })
 
 function hilight (str, pattern) {
-  return str.replace(new RegExp(pattern, 'g'), c.bgYellow.gray.bold(pattern))
+  const regex = new RegExp(pattern, 'ig')
+  return str.replace(regex, match => c.bgYellow.gray.bold(match))
 }
 
 function exit (err) {
