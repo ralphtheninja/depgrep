@@ -3,8 +3,14 @@
 const debug = require('debug')('depgrep')
 const c = require('chalk')
 const ora = require('ora')
-
+const rimraf = require('rimraf')
 const rc = require('./lib/rc')
+
+if (rc.c) {
+  rimraf.sync(rc.db)
+  process.exit(0)
+}
+
 const db = require('./lib/db')(rc.db)
 const doQuery = require('./lib/query')
 
@@ -57,9 +63,12 @@ function exit (err) {
 }
 
 function usage () {
-  console.log(c.bold('SEARCH'))
-  console.log('  depgrep module query')
+  console.log('depgrep [module query] [options]')
   console.log('')
   console.log('  Search for testBuffer in dependents of abstract-leveldown')
   console.log(c.bold('    depgrep abstract-leveldown testBuffer'))
+  console.log('  Clear cached search results')
+  console.log(c.bold('    depgrep -c | --clear-cache'))
+  console.log('  Show this help')
+  console.log(c.bold('    depgrep -h | --help'))
 }

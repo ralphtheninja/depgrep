@@ -25,9 +25,25 @@ $ npm i depgrep -g
 
 ## Usage
 
+### Search Dependents
+
 Search for `testBuffer` in dependents of `abstract-leveldown`
 
 ![image](depgrep.gif)
+
+### Options
+
+To clear search results and cached dependents:
+
+```
+$ depgrep -c | --clear-cache
+```
+
+Display help:
+
+```
+$ depgrep -h | --help
+```
 
 ## License
 
