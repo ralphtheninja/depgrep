@@ -13,7 +13,7 @@
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "module-dependents": "^1.0.0",
-    "ora": "^1.3.0",
+    "ora": "^2.0.0",
     "osenv": "^0.1.4",
     "rc": "^1.2.2",
     "rimraf": "^2.6.2",
