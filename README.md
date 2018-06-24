@@ -47,4 +47,4 @@ $ depgrep -h | --help
 
 ## License
 
-MIT
+[GPL-3.0](LICENSE) © 2018-present Lars-Magnus Skog.
