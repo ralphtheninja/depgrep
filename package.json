@@ -4,7 +4,7 @@
   "description": "Search dependents of a node module.",
   "main": "index.js",
   "dependencies": {
-    "array-uniq": "^1.0.3",
+    "array-uniq": "^2.0.0",
     "chalk": "^2.3.0",
     "debug": "^3.1.0",
     "github-from-package": "0.0.0",
