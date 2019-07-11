@@ -21,7 +21,7 @@
   },
   "bin": "cli.js",
   "devDependencies": {
-    "standard": "^12.0.0"
+    "standard": "^13.0.1"
   },
   "homepage": "https://github.com/ralphtheninja/depgrep",
   "repository": {
