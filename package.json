@@ -16,7 +16,7 @@
     "ora": "^2.1.0",
     "osenv": "^0.1.4",
     "rc": "^1.2.2",
-    "rimraf": "^2.6.2",
+    "rimraf": "^3.0.0",
     "subleveldown": "^3.0.0"
   },
   "bin": "cli.js",
