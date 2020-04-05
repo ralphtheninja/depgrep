@@ -17,7 +17,7 @@
     "osenv": "^0.1.4",
     "rc": "^1.2.2",
     "rimraf": "^3.0.0",
-    "subleveldown": "^4.1.1"
+    "subleveldown": "^5.0.0"
   },
   "bin": "cli.js",
   "devDependencies": {
